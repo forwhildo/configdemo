@@ -1,0 +1,10 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: CONFIGSERVER
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
