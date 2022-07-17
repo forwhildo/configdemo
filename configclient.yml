@@ -2,6 +2,11 @@ server:
   port: 8092
 
 spring:
+  rabbitmq:
+    password: guest
+    host: 47.101.33.159
+    username: guest
+    port: 5672
   application:
     name: CONFIGCLIENT
   cloud:
